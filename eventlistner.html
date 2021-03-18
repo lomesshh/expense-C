@@ -1,0 +1,97 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+        <script
+			defer
+			src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+			integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+			crossorigin="anonymous"
+		></script>
+        <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    <title>Document</title>
+    
+</head>
+<body style="margin: 0 !important; padding: 0 !important; background: url(https://i.postimg.cc/yxWpQdT5/pexels-miguel-padri-n-194096.jpg);">
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Expense -👀</span>
+    </nav>
+    <br><br>
+    <div class="container-fluid bg-light" style="min-height: 100vh; background: url(https://i.postimg.cc/yxWpQdT5/pexels-miguel-padri-n-194096.jpg);">
+        <div class="container">
+            <div class="jumbotron mt-4">
+                <h1 id="disvalue" style="margin: auto; text-align: center;"></h1><br>
+
+                <div class="input-group mb-3">
+                    
+                    <input
+                        type="number"
+                        class="form-control"
+                        id="inputAmount"
+                        placeholder="Amount spent"
+                        aria-label="Amount spent"
+                        aria-describedby="spent in rupee"
+                    />
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="spent in rupee">₹upees</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="spent at">@</span>
+                    </div>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="inputDesc"
+                        placeholder="spent On"
+                        aria-label="spent On"
+                        aria-describedby="spent at"
+                    />
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button" id="btnAddExpense">Add</button>
+                    </div>
+                    <ul>
+                        
+                    </ul>
+                </div>
+    
+                <ul class="list-group" id="expenseTable"></ul>
+            </div>
+      </div>
+   </div>
+   <footer class="social-footer">
+    <div class="social-footer-left" style="color: white;">
+      <h2 class="ftco-heading-2">Expense-C <span style="font-size: medium;">Using Vanila JS</span></h2>
+      <p>Everything you can imagine is RE∆L⭐ </p>
+    </div>
+    <div class="social-footer-icons">
+      <ul class="menu simple" style="list-style-type: none; display: inline-block;">
+
+
+        <li><a style="text-decoration: none" href="https://github.com/lomesshh"><i class="fab fa-github"></i><span style="color: white;">&ensp; Git - lomesshh</span></a></li><br>
+        <li><a style="text-decoration: none" href="https://www.instagram.com/lomesshh/"><i class="fab fa-instagram"></i><span style="color: white;">&ensp; lomesshh</span></a></li>
+      </ul>
+
+      <ul class="menu simple" style="list-style-type: none; display: inline-block;">
+        <li><a style="text-decoration: none" ; href="https://twitter.com/b84496f5a82e4e6"><i class="fab fa-twitter"></i><span style="color: white;">&ensp; Lomesh Badhe</span></a></li><br>
+        
+        <li><a style="text-decoration: none" href="mailto:badhelomesh82@gmail.com"><i class="fa fa-envelope"
+              aria-hidden="true"></i><span style="color: white;">&ensp; badhelomesh82@gmail.com</span></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="valinascript.js"></script>
+</body>
+</html>
