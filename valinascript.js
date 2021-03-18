@@ -62,7 +62,7 @@ function deleteItem(dateValue) {
     //     {
     //         newArr.push(allExpense[i]);
     //     }
-    // }
+    //}
 
         const newArr =allExpense
             .filter(expense => expense.moment.valueOf() !== dateValue)
@@ -77,6 +77,7 @@ function deleteItem(dateValue) {
         expenseTableEl.innerHTML = allExpenseHTMJoin;
 
     }
+
 
 function createTableList({ Description, Amount, moment })  {
 
